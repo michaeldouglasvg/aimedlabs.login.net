@@ -25,7 +25,7 @@ const Forms = () => {
             <span>Password</span>
             <div className='input'>
               <input type='password' name='password' id='password' placeholder='Enter Password' />
-             {showtext?<FaEyeSlash size={20} className='eyetoggle' onClick={showPasswordToogle}/>:<FaEye size={20} className='eyetoggle' onClick={showPasswordToogle}/>}
+             {showtext?<FaEye size={20} className='eyetoggle' onClick={showPasswordToogle}/>:<FaEyeSlash size={20} className='eyetoggle' onClick={showPasswordToogle}/>}
             </div>
           </div>
           <div className='Formgroup'>
